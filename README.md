@@ -12,4 +12,3 @@ test
 it will work
 now
 ln
-lost
