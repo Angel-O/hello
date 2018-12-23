@@ -10,5 +10,4 @@ class MainSpec extends FlatSpec with Matchers{
 
     message should startWith("Hello, World")
   }
-
 }
