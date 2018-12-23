@@ -7,6 +7,12 @@ pipeline {
                 sh "sbt clean compile"
             }
         }
+        stage('Test') {
+            steps {
+                echo "Running tests..."
+                sh "sbt test"
+            }
+        }
     } 
 }
 
